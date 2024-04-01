@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <remotePackage path="system-images;android-33;lineage;x86_64">
+        <type-details xsi:type="sys-img:sysImgDetailsType">
+            <api-level>33</api-level>
+            <tag>
+                <id>lineage</id>
+                <display>LineageOS</display>
+            </tag>
+            <abi>x86_64</abi>
+        </type-details>
+        <revision>
+            <major>20240330</major>
+        </revision>
+        <display-name>LineageOS x86_64 System Image</display-name>
+        <dependencies>
+            <dependency path="emulator"/>
+        </dependencies>
+        <archives>
+            <archive>
+                <complete>
+                    <size>978140993</size>
+                    <checksum type="sha1">a0d1068d26649124d7226e1b0261757a400191f9</checksum>
+                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-20-phone-20240330/lineage-20-phone-20240330.zip</url>
+                </complete>
+            </archive>
+        </archives>
+    </remotePackage>
+</sys-img:sdk-sys-img>

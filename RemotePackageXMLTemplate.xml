@@ -1,0 +1,26 @@
+<remotePackage path="system-images;android-$SDK;lineage;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+        <api-level>$SDK</api-level>
+        <tag>
+            <id>lineage</id>
+            <display>LineageOS</display>
+        </tag>
+        <abi>$ARCH</abi>
+    </type-details>
+    <revision>
+        <major>$DATE</major>
+    </revision>
+    <display-name>LineageOS $ARCH System Image</display-name>
+    <dependencies>
+        <dependency path="emulator"/>
+    </dependencies>
+    <archives>
+        <archive>
+            <complete>
+                <size>$SIZE</size>
+                <checksum type="sha1">$SHA1</checksum>
+                <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-$LVER-$TYPE-$DATE/lineage-$LVER-$TYPE-$DATE.zip</url>
+            </complete>
+        </archive>
+    </archives>
+</remotePackage>

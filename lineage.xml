@@ -1,9 +1,139 @@
 <?xml version='1.0' encoding='utf-8'?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <remotePackage path="system-images;android-28;lineage;x86_64">
+        <type-details xsi:type="sys-img:sysImgDetailsType">
+            <api-level>28</api-level>
+            <tag>
+                <id>lineage</id>
+                <display>LineageOS</display>
+            </tag>
+            <abi>x86_64</abi>
+        </type-details>
+        <revision>
+            <major>20240328</major>
+        </revision>
+        <display-name>LineageOS x86_64 System Image</display-name>
+        <dependencies>
+            <dependency path="emulator"/>
+        </dependencies>
+        <archives>
+            <archive>
+                <complete>
+                    <size>698100236</size>
+                    <checksum type="sha1">2680a446e6ea62e9f1a2d455b23ca8e7125e360f</checksum>
+                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-16-phone-20240328/lineage-16-phone-20240328.zip</url>
+                </complete>
+            </archive>
+        </archives>
+    </remotePackage>
+    <remotePackage path="system-images;android-29;lineage;x86_64">
+        <type-details xsi:type="sys-img:sysImgDetailsType">
+            <api-level>29</api-level>
+            <tag>
+                <id>lineage</id>
+                <display>LineageOS</display>
+            </tag>
+            <abi>x86_64</abi>
+        </type-details>
+        <revision>
+            <major>20240323</major>
+        </revision>
+        <display-name>LineageOS x86_64 System Image</display-name>
+        <dependencies>
+            <dependency path="emulator"/>
+        </dependencies>
+        <archives>
+            <archive>
+                <complete>
+                    <size>790261475</size>
+                    <checksum type="sha1">90267e678a275d55f04d06970e05cd3d1be420d0</checksum>
+                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-17-phone-20240323/lineage-17-phone-20240323.zip</url>
+                </complete>
+            </archive>
+        </archives>
+    </remotePackage>
+    <remotePackage path="system-images;android-30;lineage;x86_64">
+        <type-details xsi:type="sys-img:sysImgDetailsType">
+            <api-level>30</api-level>
+            <tag>
+                <id>lineage</id>
+                <display>LineageOS</display>
+            </tag>
+            <abi>x86_64</abi>
+        </type-details>
+        <revision>
+            <major>20240315</major>
+        </revision>
+        <display-name>LineageOS x86_64 System Image</display-name>
+        <dependencies>
+            <dependency path="emulator"/>
+        </dependencies>
+        <archives>
+            <archive>
+                <complete>
+                    <size>883171648</size>
+                    <checksum type="sha1">db992678189af469ed7094ef50f404a40567141c</checksum>
+                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-18-phone-20240315/lineage-18-phone-20240315.zip</url>
+                </complete>
+            </archive>
+        </archives>
+    </remotePackage>
+    <remotePackage path="system-images;android-32;lineage;x86_64">
+        <type-details xsi:type="sys-img:sysImgDetailsType">
+            <api-level>32</api-level>
+            <tag>
+                <id>lineage</id>
+                <display>LineageOS</display>
+            </tag>
+            <abi>x86_64</abi>
+        </type-details>
+        <revision>
+            <major>20240323</major>
+        </revision>
+        <display-name>LineageOS x86_64 System Image</display-name>
+        <dependencies>
+            <dependency path="emulator"/>
+        </dependencies>
+        <archives>
+            <archive>
+                <complete>
+                    <size>936104955</size>
+                    <checksum type="sha1">6d505b77df2efce7bf3951c3ef01e7e413d56ea2</checksum>
+                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-19-phone-20240323/lineage-19-phone-20240323.zip</url>
+                </complete>
+            </archive>
+        </archives>
+    </remotePackage>
     <remotePackage path="system-images;android-33;lineage;x86_64">
         <type-details xsi:type="sys-img:sysImgDetailsType">
             <api-level>33</api-level>
+            <tag>
+                <id>lineage</id>
+                <display>LineageOS</display>
+            </tag>
+            <abi>x86_64</abi>
+        </type-details>
+        <revision>
+            <major>20240329</major>
+        </revision>
+        <display-name>LineageOS x86_64 System Image</display-name>
+        <dependencies>
+            <dependency path="emulator"/>
+        </dependencies>
+        <archives>
+            <archive>
+                <complete>
+                    <size>978140993</size>
+                    <checksum type="sha1">a0d1068d26649124d7226e1b0261757a400191f9</checksum>
+                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-20-phone-20240329/lineage-20-phone-20240329.zip</url>
+                </complete>
+            </archive>
+        </archives>
+    </remotePackage>
+    <remotePackage path="system-images;android-34;lineage;x86_64">
+        <type-details xsi:type="sys-img:sysImgDetailsType">
+            <api-level>34</api-level>
             <tag>
                 <id>lineage</id>
                 <display>LineageOS</display>
@@ -20,35 +150,9 @@
         <archives>
             <archive>
                 <complete>
-                    <size>978140993</size>
-                    <checksum type="sha1">a0d1068d26649124d7226e1b0261757a400191f9</checksum>
-                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-20-phone-20240330/lineage-20-phone-20240330.zip</url>
-                </complete>
-            </archive>
-        </archives>
-    </remotePackage>
-    <remotePackage path="system-images;android-34;lineage;x86_64">
-        <type-details xsi:type="sys-img:sysImgDetailsType">
-            <api-level>34</api-level>
-            <tag>
-                <id>lineage</id>
-                <display>LineageOS</display>
-            </tag>
-            <abi>x86_64</abi>
-        </type-details>
-        <revision>
-            <major>20240331</major>
-        </revision>
-        <display-name>LineageOS x86_64 System Image</display-name>
-        <dependencies>
-            <dependency path="emulator"/>
-        </dependencies>
-        <archives>
-            <archive>
-                <complete>
                     <size>867846829</size>
                     <checksum type="sha1">984435e838b50fed7d7a16736237193630f813e8</checksum>
-                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-21-phone-20240331/lineage-21-phone-20240331.zip</url>
+                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-21-phone-20240330/lineage-21-phone-20240330.zip</url>
                 </complete>
             </archive>
         </archives>

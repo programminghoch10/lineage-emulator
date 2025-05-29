@@ -167,7 +167,7 @@
             <abi>x86_64</abi>
         </type-details>
         <revision>
-            <major>20241119</major>
+            <major>20250527</major>
         </revision>
         <display-name>LineageOS x86_64 System Image</display-name>
         <dependencies>
@@ -176,9 +176,9 @@
         <archives>
             <archive>
                 <complete>
-                    <size>902102262</size>
-                    <checksum type="sha1">f874f0e539a564e36277a78c8b43520501aeb227</checksum>
-                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-22-phone-20241119/lineage-22-phone-20241119.zip</url>
+                    <size>1000786261</size>
+                    <checksum type="sha1">60e003697d5833e11fca0e413d36cfe931ccb6b4</checksum>
+                    <url>https://github.com/programminghoch10/lineage-emulator/releases/download/lineage-22-phone-20250527/lineage-22-phone-20250527.zip</url>
                 </complete>
             </archive>
         </archives>

@@ -1,16 +1,21 @@
-<remotePackage path="system-images;android-$SDK;lineage;x86_64">
+<remotePackage path="system-images;android-$SDK;$TAG;$ARCH">
     <type-details xsi:type="sys-img:sysImgDetailsType">
         <api-level>$SDK</api-level>
         <tag>
-            <id>lineage</id>
-            <display>LineageOS</display>
+            <id>$TAG</id>
+            <display>LineageOS $FTYPE</display>
         </tag>
         <abi>$ARCH</abi>
+        <abis>$ARCH</abis>
+        <vendor>
+            <id>programminghoch10</id>
+            <display>programminghoch10</display>
+        </vendor>
     </type-details>
     <revision>
         <major>$DATE</major>
     </revision>
-    <display-name>LineageOS $ARCH System Image</display-name>
+    <display-name>LineageOS $LVER $ARCH System Image</display-name>
     <dependencies>
         <dependency path="emulator"/>
     </dependencies>

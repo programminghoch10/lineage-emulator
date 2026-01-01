@@ -28,13 +28,15 @@ SDK=$(getprop AndroidVersion.ApiLevel)
 DATE=$(getprop ro.build.date.utc)
 DATE=$(date --utc -d @"$DATE" +%Y%m%d)
 SHA1=$(sha1sum "$FILE" | cut -d ' ' -f 1)
-LVER=$(getprop ro.lineage.build.version | cut -d '.' -f 1)
+LVER=$(getprop ro.lineage.build.version)
 SIZE=$(stat -c %s "$FILE")
 TYPE=phone
-getprop ro.build.flavor | grep -q _tv && TYPE=atv
-getprop ro.build.flavor | grep -q _car && TYPE=car
+FTYPE=Phone
+TAG=lineage
+getprop ro.build.flavor | grep -q _tv && TYPE=atv FTYPE=AndroidTV TAG=lineage-atv
+getprop ro.build.flavor | grep -q _car && TYPE=car FTYPE=Automotive TAG=lineage-car
 
-declare -x SDK DATE ARCH SIZE SHA1 LVER TYPE
-#declare -p SDK DATE ARCH SIZE SHA1 LVER TYPE
+declare -x SDK DATE ARCH SIZE SHA1 LVER TYPE FTYPE TAG
+#declare -p SDK DATE ARCH SIZE SHA1 LVER TYPE FTYPE TAG >&2
 
 envsubst < RemotePackageXMLTemplate.xml
